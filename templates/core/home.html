@@ -5,10 +5,19 @@
 <link rel="stylesheet" href="{% static 'css/home.css' %}">
 
 <div class="container-fluid hero ">
-  {% include 'core/navbar.html' %}
+  <div class="container">
+    {% include 'core/navbar.html' %}
 
+    <div class="row">
+      <div class="col-md-6">
 
-  
+      </div>
+      <div class="col-md-6">
+        <img src="{% static 'assets/amico.svg' %}" class="img-fluid" alt="">
+      </div>
+    </div>
+  </div>
+
 </div>
 <div class="container-fluid cta ">
   <h1>Hello hero</h1>
