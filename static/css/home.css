@@ -2,3 +2,18 @@
    padding: 0;
    margin: 0;
 }
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url('../assets/herro.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cta{
+    height: 100vh;
+    width: 100%;
+
+}
