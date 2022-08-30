@@ -48,6 +48,25 @@ h1{
     font-size: 16px;
 }
 
+ul li a::after {
+    position: absolute;
+    content: "";
+   
+    background: #ff7000;
+    transition: transform 0.5s;
+    transform: scaleX(0);
+    transform-origin: right;
+  }
+  ul li a:hover {
+    color: orange;
+    border-bottom: 3px solid orange;
+  }
+  ul li a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+
+
 
 
 
