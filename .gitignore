@@ -1,2 +1,4 @@
 .env
 /tenv
+*pyc
+/node_modules
