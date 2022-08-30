@@ -3,9 +3,7 @@ from django.views.generic import TemplateView
 
 # Create your views here.
 
-def homepage(request):
+class home(TemplateView):
     
-    context = {
-        
-    }
-    return render(request, 'main/home.html', context)
+    template_name = 'core/home.html'
+    
