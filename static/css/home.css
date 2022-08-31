@@ -54,16 +54,19 @@ a:hover {
   color: #ff0095;
 }
 
-h1, .prod {
+h1,
+.prod {
   font-size: 60px;
   background: -webkit-linear-gradient(rgb(97, 5, 105), rgb(48, 5, 148));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fa-circle-check{
+
+.fa-circle-check {
   color: #ebb41e;
   font-size: 20px;
 }
+
 .lrn {
   color: #000;
   font-weight: bolder;
