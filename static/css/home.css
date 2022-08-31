@@ -7,10 +7,17 @@
    font-family: 'Poppins', sans-serif;
 
 }
+.gp{
+  transition: transform .2s;
+}
+.gp:hover{
+
+  transform: scale(1.1);
+}
 
 .hero{
-    height: 100vh;
-    width: 100%;
+    height: auto;
+    width: auto;
     background-color: #dfeff1b0;
     /* background-image: url('../assets/herro.png');
     background-position: center;
@@ -18,8 +25,8 @@
     background-repeat: no-repeat; */
 }
 .productive{
-  height: 100vh;
-  width: 100%;
+  height: auto;
+  width: auto;
   background-color: #dfeff1b0;
 }
 a{
