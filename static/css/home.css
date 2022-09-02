@@ -113,7 +113,9 @@ ul li a:hover::after {
 }
 
 
-
+.bll{
+  background-color: rgba(110, 110, 240, 0.658);
+}
 
 
 
