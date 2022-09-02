@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&display=swap');
 
 * {
   padding: 0;
@@ -47,16 +47,15 @@ a:hover {
   width: 100%;
 
 }
-
-.tasks {
-  font-weight: bolder;
-  background-color: #ff963a9c;
-  color: #ff0095;
+#logo{
+  width: 190px; height: auto; 
 }
+
 
 h1,
 .prod {
-  font-size: 60px;
+  font-size: 50px;
+  margin-top: 15px;
   background: -webkit-linear-gradient(rgb(97, 5, 105), rgb(48, 5, 148));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -242,4 +241,25 @@ ul li a:hover::after {
 
 .button-79:not(:disabled):active {
   transform: translateY(.125rem);
+}
+
+#tasks {
+  font-weight: bolder;
+  color: #ff0095 !important;
+}
+
+@media only screen and (max-width: 600px) {
+  h1,
+.prod {
+  font-size: 40px;
+  background: -webkit-linear-gradient(rgb(97, 5, 105), rgb(48, 5, 148));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#logo{
+  width: 120px; height: auto; 
+}
+.devdash{
+  margin-top: 20px;
+}
 }
