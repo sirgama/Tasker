@@ -6,4 +6,13 @@ from django.views.generic import TemplateView
 class home(TemplateView):
     
     template_name = 'core/home.html'
+
+
+class Newsletter(TemplateView):
     
+    template_name = ''
+    
+    
+class Register(TemplateView):
+    
+    template_name = 'auth/signup.html'
