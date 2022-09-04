@@ -8,9 +8,28 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.reg{
-    background-image: url('/static/assets/jess.jpg');
-    background-repeat: no-repeat;
+/* .reg{
+    background-image: url('/static/assets/hello.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
+} */
+.right{
+    max-width: 100%;
+}
+.left{
+    background-image: url('/static/assets/hello.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .left{
+        display: none;
+    }
+
 }
