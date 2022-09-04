@@ -23,13 +23,18 @@
     background-repeat: no-repeat;
     height: 100vh;
 }
-
+.regform{
+    max-width: 30vw;
+}
 
 
 @media only screen and (max-width: 600px) {
 
     .left{
         display: none;
+    }
+    .regform{
+        max-width: 100vw;
     }
 
 }
